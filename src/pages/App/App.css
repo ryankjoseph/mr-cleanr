@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  /* background: url(https://i.imgur.com/zqn0gS5.jpg); */
+  background:var(--clr-purple);
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App-header{
+  background-color: var(--clr-neutral-900);
+  min-height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  color: black;
+}
+
+
+.nav-links,
+.nav-links:visited {
+  display: flex;
+  flex-direction: row;
+  color: var(--clr-purple);
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+.nav-user{
+  font-size: 1rem;
+  align-self: stretch;
+}
+
+.LogOut, .LogOut > *, .btn-sm{
+  height: 100%;
+}
+
+.btn-sm{
+  border: 0px;
+}
+
+.toggle-role{
+  color: yellow;
+  background: var(--clr-purple);
+}
+.Page{
+  min-width: 80%;
+}
+
+.Component{
+  min-width: 30%;
+}
+
+.card {
+  color: white;
+  background: linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(20 0% 0% / 0.3) 20%,
+        var(--clr-accent-400)
+    );
+  background-size: cover;
+  padding: 0.5rem 0;
+  border-radius: 0.25rem;
+
+  transition: transform 100ms ease-in;
+}
+
+.card:hover,
+.card:focus-within {
+    transform: scale(1.05);
+    cursor:pointer;
+}
+.blue-button>:first-child{
+  min-width: 30vw
+}
+
+@media screen and (max-width: 600px) {
+  .nav-user {
+    float: right;
+    display: block;
+  }
+}

@@ -1,0 +1,47 @@
+.month-header{
+    background:var(--clr-purple);
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin: 0 auto;
+    color:yellow;
+    border:2px solid white
+}
+.month-header >*{
+    margin:0 auto;
+}
+.month-body{
+    width:100%;
+    margin: 0 auto;
+}
+.month-name{
+    font-size:xx-large;
+}
+.weekday-names{
+    display:flex;
+    padding:0;
+    margin:0 auto;
+    justify-content: space-evenly;
+    background:white;
+}
+.weekday-name{
+    border-right:red;
+}
+.month-switch{
+    padding:0;
+    margin:0 auto;
+    justify-content: right;
+    width:100%;
+}
+
+.month-switch>button{
+    justify-content: right;
+    font-size:24px;
+    min-width:50px;
+
+}
+#prev-month-button,
+#next-month-button{
+    background:yellow;
+    color:purple;
+}

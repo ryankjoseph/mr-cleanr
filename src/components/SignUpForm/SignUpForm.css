@@ -1,0 +1,60 @@
+.sign-up-map>.leaflet-container{
+    height: 55vh;
+}
+.signup-page{
+    position: relative
+}
+.signup-button-container, .last-page-button{
+    position: absolute;
+    bottom: 0px;
+    display:flex;
+    justify-content: space-around;
+}
+.signup-button-container{
+    width:100%;
+}
+.signup-button-container >*{
+    justify-content: space-between;
+    align-content: flex-end;
+
+}
+.signup-summary> tbody>tr>td{
+    text-align: left;
+}
+.signup-summary> tbody>tr>td:first-child{
+    text-align: left;
+    font-weight: bolder;
+    vertical-align: top;
+}
+.signup-view> tbody>tr>td:first-child{
+    font-weight: bolder;
+}
+.signup-page{
+    height: 60vh;
+}
+.signup-summary, .signup-view{
+    margin:4vh auto;
+}
+.signup-summary> tbody>tr>td:last-child, .signup-summary> thead>tr>th:last-child{
+    padding-left:13vh;
+}
+.signup-view{
+    border-spacing: 2vh;
+}
+.signup-view0{
+    margin-bottom: 0 ;
+}
+.signup-summary{
+    padding-left:2vh;
+    border-spacing: 1vh;
+}
+.role-container{
+    display:flex;
+    justify-content: center;
+    margin-bottom:2vh
+}
+.signup-submit{
+    height:5vh;
+    width:30vh;
+    background-color: white;
+}

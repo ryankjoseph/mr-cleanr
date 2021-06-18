@@ -1,0 +1,36 @@
+.AppointmentsPage{
+
+}
+.appointment-container{
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    background: black;
+
+}
+.appt-view-btn{
+    border:none;
+    background:none;
+    width:100%;
+    cursor:pointer;
+    min-height:5vh
+
+}
+.appt-view-btn:hover,.appt-view-btn:focus-within{
+
+}
+
+#appt-calendar{
+    border-top:0px;
+    background:white;
+    padding-bottom:4vh;
+    font-size:2rem;
+}
+#appt-list{
+    border:0 solid;
+    font-size:2rem
+}
+.toggle-appointment-view{
+    display:flex;
+    justify-content: space-evenly;
+}
